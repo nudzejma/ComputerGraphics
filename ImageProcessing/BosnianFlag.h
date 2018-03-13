@@ -1,18 +1,13 @@
-#pragma once
 #include <iostream>
 #include <fstream>
 using namespace std;
-
-void drawYellowPart(int from, int to) {
-	;
-}
 
 void makeBosnianFlag(int width, int height) {
 	ofstream fout;
 
 	int blue[3] = { 28, 15, 198 };
 	int yellow[3] = { 255, 250, 0 };
-	fout.open("img.ppm");
+	fout.open("ImageProcessing/bosnianFlag.ppm");
 	if (fout.is_open()) {
 		cout << "Image opened" << endl;
 		fout << "P3" << endl;
@@ -53,7 +48,7 @@ void makeBosnianFlag(int width, int height) {
 					fout << "255" << " " << "255" << " " << "255" << " ";
 				}
 
-				else if ((j - i) >= 130 && j <= 500) {
+				else if ((j - i) >= 130 && j <= 530) {
 					
 					fout << yellow[0] << " " << yellow[1] << " " << yellow[2] << " ";
 				

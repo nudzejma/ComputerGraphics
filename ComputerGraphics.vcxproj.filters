@@ -24,15 +24,15 @@
     <ClInclude Include="ImageProcessing\BosnianFlag.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ImageProcessing\Circle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ComputerGraphics.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ImageProcessing\BosnianFlag.cpp">
+    <ClCompile Include="ImageProcessing\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
